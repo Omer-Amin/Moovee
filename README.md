@@ -34,7 +34,8 @@ Scene* scene = new Scene({actor}, 1000);
 
 // after each iteration, render
 scene.afterTick = [](std::vector<Actor*> actors) -> bool {
-  actors[0].renderAsGeometry();
+     actors[0].renderAsGeometry();
+     return true;
 };
 
 // play scene
