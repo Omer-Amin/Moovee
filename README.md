@@ -65,7 +65,7 @@ The constructor function takes in as parameters:
 * Behaviour specifications (called directions)
 * A script type (MV_TRANSLATE, MV_ROTATE, MV_SCALE)
 
-Scripts contain multiple event callbacks that can be overridden. Returns a bool, indicating whether to dent or permit permisson to play the script.
+Scripts contain multiple event callbacks that can be overridden. Returns a bool, indicating whether to deny or permit permisson to play the script.
 
 ### Actors
 An actor is a set of 2D vectors to which scripts are applied.
