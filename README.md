@@ -16,7 +16,7 @@ std::vector<Vec2> vertices = {
 };
 
 // create angle vector (only utilising x component)
-std::vector<float> a = {0, 0};
+Vec2 a = {0, 0};
 
 // define fundamental animation components
 Vec2 vFrom   = {100, 100},  // starting position
