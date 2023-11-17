@@ -64,6 +64,7 @@ The constructor function takes in as parameters:
 * A gradient function (returns Vec2)
 * Behaviour specifications (called directions)
 * A script type (MV_TRANSLATE, MV_ROTATE, MV_SCALE)
+
 Scripts contain multiple event callbacks that can be overridden. Returns a bool, indicating whether to dent or permit permisson to play the script.
 
 ### Actors
@@ -71,6 +72,7 @@ An actor is a set of 2D vectors to which scripts are applied.
 The constructor function takes in as parameters:
 * A set of Vec2 points
 * A set of scripts
+
 Actor possess their own event callbacks that can be overidden. Returns a bool, indicating whether to deny or permit permission to play all scripts applied to the actor.
 The centre of an actor's geometry is its centroid by default and is automatically updated. The value of the centre can be overritten, and will continue to be updated from that point as usual.
 
