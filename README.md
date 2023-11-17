@@ -25,7 +25,7 @@ Vec2 vFrom   = {100, 100},  // starting position
 
 Vec2 aFrom   = {0, 0},      // starting angle
      aTo     = {PI / 2, 0}, // ending angle
-     aMinMax = {0, 0.1}     // min and max angular velocities
+     aMinMax = {0, 0.1};    // min and max angular velocities
 
 // initialise scripts
 Script* vScript = new Script(v, Actions::symQuad, {vFrom, vTo, vMinMax}, MV_TRANSLATION); // script for vertices
