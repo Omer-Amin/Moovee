@@ -1,9 +1,6 @@
 # Moovee
 Moovee is a powerful and lightweight 2D animation library. It enables you to form complex animations using high-level descriptors and utilises an events-based system to allow you to fine tune each individual component of each animation frame to your preference.
 
-## Terminology
-Moovee uses film-making terminology to provide highly intuitive and readable scripting. The library that allows for versatile, complex rates-of-change (`Actions`), which can be attached to renderable objects (`Actors`) and then grouped into synchornised animations (`Scenes`), all aggregated together with user configurations to be played back as a `Movie`.
-
 ## Brief Documentation
 A full documentation is in the works. The following should help you get started.
 
