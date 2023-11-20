@@ -1,4 +1,10 @@
 # Moovee
-Moovee is a powerful and lightweight 2D animation library. It enables you to form complex animations using basic descriptors and utilises an events-based system to allow you to fine tune each individual component of each animation frame in real time.
+Moovee is a powerful and lightweight 2D animation library. It utilises an events-based system to allow for real-time interactibility and tuning of individual frames.
 
-Moovee is ideal for incorporating animations into games where general behaviour needs to be fine tuned by unpredictable variables. An example is smooth camera panning to points changing in real time.
+Moovee is fundamentally a library for incrementally chaging values in desired ways using calculus and interpolation. It does the heavylifting for you and provides a framework for access and manipulation at each increment. As such, its applications are infinite.
+
+Example uses for Moovee:
+* Graphical animations (think 3Blue1Brown)
+* Implementing smooth motion effects in games
+* Interactable demonstrations
+* Screen saver animations
