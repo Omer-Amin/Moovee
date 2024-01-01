@@ -1,10 +1,7 @@
 # Moovee
-Moovee is a powerful and lightweight 2D animation library. It utilises an events-based system to allow for real-time interactibility and tuning of individual frames.
+Moovee is an incredibly versatile 2D animation library. It utilises a modular design to allow you to monitor and fine tune each and every aspect of the animation in real time, allowing for features such as interactibility.
 
-Moovee is fundamentally a library for incrementally chaging values in desired ways using calculus and interpolation. It does the heavylifting for you and provides a framework for access and manipulation at each increment. As such, its applications are infinite.
+The rendering component of Moovee is an optional module, as the library contains a vast number of useful methods for linear algebra, geometry, incrementation, interpolation, calculus, and more.
 
-Example uses for Moovee:
-* Timed animations for YouTube (think 3Blue1Brown)
-* Implementing smooth panning/zoom effects in games
-* Interactable math demonstrations
-* Screen saver animations
+The script is highly intuitive. The following example morphs a circle into a square:
+
