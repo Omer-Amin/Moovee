@@ -11,7 +11,7 @@ Renderer::create(600, 600);
 shape circle = Shape::circ(300, 300, 100),
       square = Shape::rect(300, 300, 100, 100);
 
-Movie myMovie({
+Movie demo({
     Scene(Script::draw(square)),
     Scene(Script::morph(square, circle))
 });
@@ -23,6 +23,6 @@ myMovie.afterFrame = [&](Movie& movie) -> void {
     Renderer::render();
 };
 
-Movie::play(myMovie);
+Movie::play(demo);
 ```
 
