@@ -3,23 +3,24 @@ Moovee is an incredibly versatile 2D animation library. It utilises a modular de
 
 The rendering component of Moovee is an optional module, as the library contains a vast number of useful methods for linear algebra, geometry, incrementation, interpolation, calculus, and more.
 
-The script is highly intuitive. The following example morphs a circle into a square:
+The script is highly intuitive. The following example draws a square and then morphs it into a circle:
 
 ```c++
-Render::create(600, 600);
+Renderer::create(600, 600);
 
 shape circle = Shape::circ(300, 300, 100),
       square = Shape::rect(300, 300, 100, 100);
 
 Movie myMovie = Movie({
-    Scene(Script::morph(circle, rectangle))
+    Scene(Script::draw(square)),
+    Scene(Script::morph(square, circle))
 });
 
 myMovie.afterFrame = [&](Movie& movie) -> void {
-    Render::clear();
-    Render::setColor(RED);
+    Renderer::clear();
+    Renderer::setColor(RED);
     Sketch::scene(movie.showing);
-    Render::render();
+    Renderer::render();
 };
 
 Movie::play(myMovie);
