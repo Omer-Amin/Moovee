@@ -17,7 +17,6 @@ Movie demo({
 });
 
 demo.afterFrame = [&](Movie& movie) -> void {
-    Renderer::setColor(RED);
     Sketch::scene(movie.showing);
 };
 
