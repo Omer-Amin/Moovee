@@ -17,7 +17,7 @@ Movie demo({
 });
 
 demo.afterFrame = [&](Movie& movie) -> void {
-    Sketch::scene(movie.showing);
+    Display::scene(movie.showing);
 };
 
 Movie::play(demo);
