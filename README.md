@@ -16,7 +16,7 @@ Movie demo({
     Scene(Script::morph(square, circle))
 });
 
-myMovie.afterFrame = [&](Movie& movie) -> void {
+demo.afterFrame = [&](Movie& movie) -> void {
     Renderer::clear();
     Renderer::setColor(RED);
     Sketch::scene(movie.showing);
