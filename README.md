@@ -17,10 +17,8 @@ Movie demo({
 });
 
 demo.afterFrame = [&](Movie& movie) -> void {
-    Renderer::clear();
     Renderer::setColor(RED);
     Sketch::scene(movie.showing);
-    Renderer::render();
 };
 
 Movie::play(demo);
